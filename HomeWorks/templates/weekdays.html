@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekdays</title>
+</head>
+<body>
+    <h1>Weekdays in {{ language }}</h1>
+    <ul>
+        {% for weekday in weekdays %}
+        <li>{{ weekday }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
